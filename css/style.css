@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #1f2937;
+}
+
+.bkheader {
+  margin: 0;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hleft, .hright {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+ 
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a:link, a:visited {
+  color: #f9faf8;    
+   text-decoration: none;
+}
+
+a:hover {
+  background-color: darkorchid;
+}
+
+.bkdescription {
+  margin: 0;
+  flex-direction: row;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  48px;
+  gap: 55px;
+}
+
+.hero1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero2 {
+  font-size: 18px;
+}
+
+.bdescr, .bsign {
+  color: #f9faf8;
+  border-radius: 5px;
+  background: #3882f6;
+  padding: 3px;
+  width: 130px;
+  height: 37px;
+  font-weight: bold;
+  border:0;
+}
+
+.bdescr:hover, .bsign:hover {
+  background-color: aqua;
+}
+
+.idescr {
+  height: 237px;
+  width: 522px;
+}
+
+.infoblock, .bksignup {
+  background-color: #f9faf8;
+  margin: 0;
+  padding: 16px;
+}
+
+.infoheader {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 16px;
+}
+
+.randominfo {
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+}
+
+.info {
+  max-width: 160px;
+}
+
+.irandom {
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+  height: 160px;
+  width: 160px;
+}
+
+.qblock {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  max-width: 800px;
+  align-self: center;
+}
+
+.qauthor {
+  font-weight: bolder;
+  align-self: flex-end;
+  max-width: 800px;
+  margin-right: 48px;
+}
+
+.bksignup {
+  color: #f9faf8;
+  margin: 0;
+  padding: 48px;
+}
+
+.signbox {
+  background-color: #3882f6;
+  width: 1024px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.signinfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+.bsign {
+  border: 2px solid #f9faf8;
+}
+
+.bkfooter {
+  margin: 0;
+  color: #f9faf8;
+  text-align: center;
+  padding: 16px 48px;
+}
